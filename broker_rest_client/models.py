@@ -64,7 +64,7 @@ class RabbitMQUser(BaseModel):
     @classmethod
     def from_json(cls, user_dict):
         print ("--------------------- user_dict ", user_dict)
-        print ("--------------------- user_dict['name'] " , user_dict['nam']  )
+        print ("--------------------- user_dict['name'] " , user_dict['name']  )
         print ("--------------------- user_dict['tags'] " , user_dict['tags'] )
         print ("--------------------- user_dict['tags'].split(',') ", user_dict['tags'].split(',') )
         return cls(
